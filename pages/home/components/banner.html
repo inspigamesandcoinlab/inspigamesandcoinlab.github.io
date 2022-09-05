@@ -1,0 +1,108 @@
+<div class="banner home-padding">
+  
+  <div class="banner-top">
+    <div class="container-home">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="title c-1 fs-48 b-700">Welcome to Betaverse</div>
+          <div class="sub-title mb-64 mt-16 fs-18">Swap, Play, Borrow and Earn on the leading decentralized protocol where DeFi and GameFi meet Metaverse at one home.</div>
+          <a href="#" class="py-16 px-56 fs-24 b-700 c-4 btn-explore text-decoration-none d-inline-block btn-transition">EXPLORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banner-bottom">
+    <div class="container-home">
+      <div class="d-flex align-items-center mb-16">
+        <div class="title fs-24 b-700 c-4 mr-30">NEWS AND UPDATES</div>
+        <div class="owl-news__btn-list">
+          <i class="fa-solid fa-chevron-left owl-news-button owl-news-prev cursor-pointer mr-10 fs-20"></i>
+          <i class="fa-solid fa-chevron-right owl-news-button owl-news-next cursor-pointer fs-20"></i>
+        </div>
+      </div>
+
+      <div class="owl-carousel owl-theme owl-news">
+        <div class="news-item">
+          <div class="news-date c-5">August 19, 2022</div>
+          <div class="news-name mt-8 mb-16"><a href="#" class="text-decoration-none fs-18 b-700 c-1">Community Update#1</a></div>
+          <div class="news-content mb-26">Blandit auctor tellus bibendum dignissim. Elementum neque diam eu tellus ac volutpat fermentum. Sapien fermentum posuere amet, est natoque nec nulla.</div>
+          <a href="#" class="link d-flex align-items-center text-decoration-none c-6">
+            <span class="b-600 mr-16">Read More</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date c-5">August 19, 2022</div>
+          <div class="news-name mt-8 mb-16"><a href="#" class="text-decoration-none fs-18 b-700 c-1">Community Update#2</a></div>
+          <div class="news-content mb-26">Blandit auctor tellus bibendum dignissim. Elementum neque diam eu tellus ac volutpat fermentum. Sapien fermentum posuere amet, est natoque nec nulla.</div>
+          <a href="#" class="link d-flex align-items-center text-decoration-none c-6">
+            <span class="b-600 mr-16">Read More</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date c-5">August 19, 2022</div>
+          <div class="news-name mt-8 mb-16"><a href="#" class="text-decoration-none fs-18 b-700 c-1">Community Update#3</a></div>
+          <div class="news-content mb-26">Blandit auctor tellus bibendum dignissim. Elementum neque diam eu tellus ac volutpat fermentum. Sapien fermentum posuere amet, est natoque nec nulla.</div>
+          <a href="#" class="link d-flex align-items-center text-decoration-none c-6">
+            <span class="b-600 mr-16">Read More</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date c-5">August 19, 2022</div>
+          <div class="news-name mt-8 mb-16"><a href="#" class="text-decoration-none fs-18 b-700 c-1">Community Update#4</a></div>
+          <div class="news-content mb-26">Blandit auctor tellus bibendum dignissim. Elementum neque diam eu tellus ac volutpat fermentum. Sapien fermentum posuere amet, est natoque nec nulla.</div>
+          <a href="#" class="link d-flex align-items-center text-decoration-none c-6">
+            <span class="b-600 mr-16">Read More</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="news-item">
+          <div class="news-date c-5">August 19, 2022</div>
+          <div class="news-name mt-8 mb-16"><a href="#" class="text-decoration-none fs-18 b-700 c-1">Community Update#5</a></div>
+          <div class="news-content mb-26">Blandit auctor tellus bibendum dignissim. Elementum neque diam eu tellus ac volutpat fermentum. Sapien fermentum posuere amet, est natoque nec nulla.</div>
+          <a href="#" class="link d-flex align-items-center text-decoration-none c-6">
+            <span class="b-600 mr-16">Read More</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<script>
+  $('.owl-news').owlCarousel({
+    loop:true,
+    margin:26,
+    nav:false,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+  })
+  var owl = $('.owl-carousel');
+  owl.owlCarousel();
+  // Go to the next item
+  $('.owl-news-next').click(function() {
+      owl.trigger('next.owl.carousel');
+  })
+  // Go to the previous item
+  $('.owl-news-prev').click(function() {
+      owl.trigger('prev.owl.carousel', [300]);
+  })
+</script>

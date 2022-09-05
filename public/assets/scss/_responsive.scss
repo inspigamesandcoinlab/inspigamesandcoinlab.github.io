@@ -1,0 +1,45 @@
+@media screen and (min-width: 1500px){
+  .row-footer{
+    margin: 0 -98px;
+    .col-footer{
+      padding: 0 98px;
+      &:first-child{
+        border-right: 2px solid #788095;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1210px){
+  .row-vision{
+    margin: 0 -20px;
+    .col-vision{
+      padding: 0 20px;
+    }
+  }
+  .row-roadmaps{
+    margin: 0 -20px;
+    .col-roadmaps{
+      padding: 0 20px;
+    }
+  }
+}
+@media screen and (max-width: 1200px){
+  
+}
+
+@media screen and (max-width: 991px){
+  .header{
+    .item-link{
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  
+}
+
+@media screen and (max-width: 550px){
+  
+}
